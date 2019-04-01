@@ -1,7 +1,8 @@
 // Let's get some practice writing a few objects for a new group of interns at a small business.
 
 // ==== Challenge 1: Writing Objects ==== 
-// HR needs some information on the new interns put into a database.  Given an id, email, first name, and gender. Create an object for each person in the company list:
+// HR needs some information on the new interns put into a database.  Given an id, email, first name, and gender. 
+// Create an object for each person in the company list:
 
 // 1,mmelloy0@psu.edu,Mitzi,F
 // 2,kdiben1@tinypic.com,Kennan,M
@@ -18,6 +19,55 @@ const example = {
 }
 
 // Write your intern objects here:
+
+// Mitzi - 1,mmelloy0@psu.edu,Mitzi,F
+
+const infoMitzi = {
+  id: 0,
+  name: 'Mitzi',
+  email: 'mmelloy0@psu',
+  gender: 'F',
+
+};
+
+// Kennan - 2,kdiben1@tinypic.com,Kennan,M
+
+const infoKennan = {
+  id:'1',
+  name:'Kennan',
+  email:'kdiben1@tinypic.com',
+  gender:'M',
+
+};
+
+// Keven - 3,kmummery2@wikimedia.org,Keven,M
+const infoKevem = {
+  id:'2',
+  name:'Keven',
+  email:'kmummery2@wikimedia.org',
+  gender:'M',
+
+};
+
+// Gannie - 4,gmartinson3@illinois.edu,Gannie,M
+const infoGannie = {
+  id:'3',
+  name:'Gannie',
+  email: 'gmartinson3@illinois.edu',
+  gender:'M',
+
+};
+
+// Antoinette - 5,adaine5@samsung.com,Antonietta,F
+const infoAntoinette = {
+  id:'4',
+  name:'Antoinette',
+  email:'adaine5@samsung.com',
+  gender:'F',
+
+};
+
+
 
 
 // ==== Challenge 2: Reading Object Data ==== 
