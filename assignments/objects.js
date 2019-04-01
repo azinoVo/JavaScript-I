@@ -41,7 +41,7 @@ const infoKennan = {
 };
 
 // Keven - 3,kmummery2@wikimedia.org,Keven,M
-const infoKevem = {
+const infoKeven = {
   id:'2',
   name:'Keven',
   email:'kmummery2@wikimedia.org',
@@ -68,20 +68,24 @@ const infoAntoinette = {
 };
 
 
-
-
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
+// console.log();
 
 // Mitzi's name
+console.log(infoMitzi.name);
 
 // Kennan's ID
+console.log(infoKennan.id);
 
 // Keven's email
+console.log(infoKeven.email);
 
 // Gannie's name
+console.log(infoGannie.name);
 
 // Antonietta's Gender
+console.log(infoAntoinette.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
